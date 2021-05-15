@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+i, .title {
+    cursor: pointer;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    /* background-color: crimson; */
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.navbar .title {
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    width: 50px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.label {
+    margin: 20px 0;
+    background-color: #CECECE;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.label p {
+    font-family: 'Fira Code', monospace;
+}
+
+/* =================================================================*/
+.central-img {    
+    font-family: 'Merriweather', serif;
+    background-image: url("https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    background-attachment: local;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 15px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+}
+
+.central-img .img img {
+    max-height: 500px;
+}
+
+.central-img .subtitle{
+    font-family: 'Fira Code', monospace;
+}
+
+.central-img .title {
+    max-width: 150px;
+}
+
+.central-img .description {
+    max-width: 175px;
+    font-size: 0.5rem;
+    font-weight: lighter;
+}
+
+/* ================================================================= */
+
+.products {
+    margin-bottom: 50px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#product {
+    width: 200px;
+    font-family: 'Fira Code', monospace;
+    cursor: pointer;
+    margin: 3px;
+    overflow: hidden;
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+#product:hover{
+    background-color: #E8E8E8;
+}
+
+#product .details {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+#product .product-img {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color: #CECECE;
+    overflow: hidden;
+}
+
+#product picture img {
+    width: 100%;
+}
+
+#product .title {
+    font-size: 0.7rem;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5px;
+}
+
+#product .description {
+    margin-bottom: 5px;
+    font-size: 0.5rem;
+    color: darkslategrey;
+}
+
+#product .price {
+    font-size: 0.7rem;
+}
+
+/* ============================== */
+
+footer {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #CECECE;
+}
+
+.menu h6, .contact h6, .social-network h6 {
+    font-family: 'Fira Code', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.social-network .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li, .contact li {
+    font-family: 'Merriweather', serif;
+    font-size: 0.6rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
